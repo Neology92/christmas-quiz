@@ -7,14 +7,39 @@
 main {
   margin: 0 auto;
   width: 100%;
-  background: rgb(255, 255, 255);
   height: 100vh;
+  background: rgb(36, 114, 0);
   position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.voucher {
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 100px);
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.voucher__inner {
+  position: absolute;
+  z-index: 2;
+  left: 60px;
+  top: 65px;
 }
 
 h1 {
-  color: white;
-  text-align: center;
+  color: rgb(9, 0, 58);
+  text-align: left;
+  font-size: 1.3rem;
+  margin-top: 35px;
 }
 
 .quiz-tile {
@@ -25,6 +50,7 @@ h1 {
   color: white;
   font-size: 1.01rem;
   text-align: center;
+  z-index: 9999;
 }
 
 form {
@@ -81,4 +107,8 @@ button {
   background-color: rgb(236, 150, 22);
   bottom: 0;
   right: 0;
+}
+
+.done {
+  display: none;
 }
