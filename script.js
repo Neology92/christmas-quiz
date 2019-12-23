@@ -23,7 +23,7 @@ for (let i = 0; i < 4; i += 1) {
 
   form[i].addEventListener("keyup", function(e) {
     console.log(input.value);
-    if (input.value === haslo[i]) {
+    if (input.value.toLowerCase() === haslo[i].toLowerCase()) {
       quiz[i].classList.add("done");
     }
 
