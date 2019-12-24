@@ -2,10 +2,10 @@ let haslo = [];
 let form = [];
 let quiz = [];
 
-haslo[0] = "asdf";
-haslo[1] = "asdg";
-haslo[2] = "asdv";
-haslo[3] = "asdb";
+haslo[0] = "króliki";
+haslo[1] = "85";
+haslo[2] = "ainik";
+haslo[3] = "konie";
 
 form[0] = document.querySelector("#form1");
 form[1] = document.querySelector("#form2");
